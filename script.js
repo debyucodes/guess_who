@@ -49,7 +49,7 @@ app.category = () => {
 app.getWinners = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/queens/winners',
+    url: 'https://www.nokeynoshade.party/api/queens/winners',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
