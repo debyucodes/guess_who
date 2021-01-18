@@ -64,7 +64,7 @@ app.getWinners = () => {
 app.getAs1 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/5/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/5/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
@@ -79,7 +79,7 @@ app.getAs1 = () => {
 app.getAs2 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/10/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/10/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
@@ -94,7 +94,7 @@ app.getAs2 = () => {
 app.getAs3 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/12/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/12/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
@@ -109,7 +109,7 @@ app.getAs3 = () => {
 app.getSeason5 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/6/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/6/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
@@ -124,7 +124,7 @@ app.getSeason5 = () => {
 app.getSeason6 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/7/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/7/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
@@ -139,7 +139,7 @@ app.getSeason6 = () => {
 app.getSeason7 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/8/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/8/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
@@ -154,7 +154,7 @@ app.getSeason7 = () => {
 app.getSeason8 = () => {
 
   $.ajax({
-    url: 'http://www.nokeynoshade.party/api/seasons/9/queens',
+    url: 'https://www.nokeynoshade.party/api/seasons/9/queens',
     dataType: 'JSON',
     method: 'GET',
   }).then(function(res){
